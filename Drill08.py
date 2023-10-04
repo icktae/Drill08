@@ -93,7 +93,7 @@ def render_world():
 
     for ball in balls:
         ball.draw()
-
+            
     update_canvas()
 
 
