@@ -90,8 +90,10 @@ def render_world():
     clear_canvas()
     for o in world:
         o.draw()
+
     for ball in balls:
         ball.draw()
+            
     update_canvas()
 
 
